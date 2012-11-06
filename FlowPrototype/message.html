@@ -13,10 +13,16 @@
         <link href="styles/main.css" rel="stylesheet" />
     </head>
     <body>
-        <div data-role="view" id="tabstrip-home" data-title="About us">
-            <h1>System Info</h1>
+        <div data-role="view" id="tabstrip-home" data-title="Hello User!">
+            <h1>Recent Activity</h1>
             <p>
-                More info...
+                  Outstanding balance is: $123,234.13
+             </p>
+            <p>
+                  We've received your last payment on 12/15/2012 of $1,490.12
+            </p>
+            <p>
+                  Your next payment is due on: 1/12/2013                
             </p>
         </div>
 
@@ -30,11 +36,13 @@
 
             <div data-role="footer">
                 <div data-role="tabstrip">
-                    <a href="index.html" data-rel="external" data-icon="home">Home</a>
+                    <a href="accounts.html" data-rel="external" data-icon="share">View Accounts</a>
+                    <a href="message.html" data-rel="external" data-icon="share">Make Payment</a>
+                    <a href="message.html" data-rel="external" data-icon="share">Send Message</a>
+                    <a href="index.html" data-rel="external" data-icon="home">Logout</a>
                 </div>
             </div>
         </div>
-
 
         <script>
             var app = new kendo.mobile.Application(document.body, { transition: "slide", layout: "mobile-tabstrip" });

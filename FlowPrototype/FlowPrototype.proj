@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="accounts.html" />
+    <Content Include="LineUpVertically.html" />
+    <Content Include="message.html" />
     <Content Include="home.html" />
     <Content Include="index.html" />
     <Content Include="kendo\js\jquery.min.js" />

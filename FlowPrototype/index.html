@@ -23,40 +23,20 @@
                 <div class="mydiv">
                     
 				    <label for="txtUser" style="display: inline-block;">User id:</label>
-				    <input type="text" id="txtFirstName" value="" />
+				    <input type="text" id="txtUser" value="" />
                 </div>
     
                 <div>
-                    
     				<label for="txtPassword" style="display: inline-block;">Password:</label>
-    				<input type="text" id="txtLastName" value="" />
+    				<input type="text" id="txtPassword" " value="" />
                 </div>
 
                  <div>
-                     <a id="submitButton" data-role="button" data-click="sayHello" data-icon="compose">Login</a>
+                     <a id="submitButton" href="home.html" data-role="button" data-click="sayHello" data-icon="compose">Login</a>
                  </div>
                     
             </div>
             
-        </div>
-
-        <div data-role="view" id="tabstrip-uiinteraction" data-title="UI Interaction">
-            <h1>Say Hello!</h1>
-           
-            <div id='helloWorldText' style="display:block;"></div>
-            <div class="buttonArea">
-                <a id="resetButton" data-role="button" data-click="sayHelloReset" data-icon="refresh">Reset</a>
-                <a id="submitButton" data-role="button" data-click="sayHello" data-icon="compose">Submit</a>
-            </div>
-        </div>
-
-        <div data-role="view" id="tabstrip-geolocation" data-title="Geolocation">
-            <h1>My Location</h1>
-            <div id="geoLocationContainer">
-                <div id="myLocation">Unable to get location information. Please check your network connection and try again.</div>
-                <a id="refreshMap" data-role="button" data-click="getLocation" data-icon="refresh">Refresh Location</a>
-                <div id="map_canvas"></div>
-            </div>
         </div>
 
         <div data-role="layout" data-id="mobile-tabstrip">
@@ -68,8 +48,7 @@
 
             <div data-role="footer">
                 <div data-role="tabstrip">
-                    <a href="home.html" data-icon="home">Home</a>
-                    <a href="about.html" data-icon="home">About</a>
+                    <a href="about.html" data-rel="external" data-icon="home">About</a>
                 </div>
             </div>
         </div>
